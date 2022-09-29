@@ -7,6 +7,10 @@
 {
   flex-wrap: wrap;
 }
+.d-row
+{
+  flex-direction: row;
+}
 .d-col
 {
   flex-direction: column;
@@ -58,11 +62,11 @@
   align-content: center;
 }
 
-.f-h-basis90
+.f-basis90
 {
   flex-basis: 90vh;
 }
-.f-h-basis10
+.f-basis10
 {
   flex-basis: 10vh;
 }
