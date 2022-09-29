@@ -43,6 +43,21 @@ main
 {
   padding: 3vw 4vw 1vw;
 }
+
+.area-carte a
+{
+  position: relative;
+}
+
+.carta-nome
+{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 0.2vw;
+  font-size: 0.8rem;
+}
 /* ____________ Sezione Icone ____________ */
 .sezione-icone
 {
