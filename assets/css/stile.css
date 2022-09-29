@@ -9,6 +9,7 @@
   list-style-type: none;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
+  transition: all 300ms;
 }
 img
 {
@@ -98,11 +99,6 @@ main
 
 
 
-
-
-
-
-
 .icon-mute i
 {
   font-size: 1.8rem;
@@ -112,7 +108,6 @@ main
 {
   font-size: 0.8rem;
 }
-
 
 .left > *
 {
@@ -128,19 +123,36 @@ main
   margin-left: 1vw;
 }
 
-
-
-
-
-
-
-
 .right div
 {
   background-color: #4a4a4a;
   padding: 2vw;
   color: red;
 }
+
+.fa-share-from-square
+{
+  color: #49c82b;
+}
+/* |||||||||| HOVER |||||||||| */
+.btn:hover
+{
+  box-shadow: 0 0 10px white;
+}
+.fa-solid:hover
+{
+  color: grey;
+}
+.area-carte > a:hover
+{
+  box-shadow: 0 0 10px rgb(226, 89, 174);
+}
+.area-carte img:hover
+{
+  opacity: 0.8;
+}
+
+
 /* |||||||||| AREA TEST |||||||||| */
 
 
