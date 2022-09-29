@@ -29,7 +29,7 @@ body
 main
 {
   height: 100vh;
-  background-color: #4d4b4b;
+  background-color: #0e0e0e;
   /* background-color: #0e0e0e; */
 }
 
@@ -47,15 +47,21 @@ main
 .sezione-icone
 {
   background-color: #222222;
-  padding: 0.5vw 0 0.5vw 0.5vw;
+  /* padding: 0 0 0.5vw 0.5vw; */
 }
 
 
-main img
+.area-carte > a
 {
   width: calc(100% / 7 - 0.6vw);
   margin: 0.3vw;
 }
+
+.area-carte img
+{
+  width: 100%;
+}
+
 
 .btn
 {
@@ -105,6 +111,20 @@ main img
 .center a
 {
   margin-left: 1vw;
+}
+
+
+
+
+
+
+
+
+.right div
+{
+  background-color: #4a4a4a;
+  padding: 2vw;
+  color: red;
 }
 /* |||||||||| AREA TEST |||||||||| */
 
