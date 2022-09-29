@@ -29,18 +29,27 @@ body
 main
 {
   height: 100vh;
-  background-color: #0e0e0e;
+  background-color: #4d4b4b;
+  /* background-color: #0e0e0e; */
 }
-main section:first-child
+
+/* ____________ Sezione Carte ____________ */
+.sezione-carte
 {
   background-color: black;
-  padding: 3vw 4vw 1vw;
-  
 }
-main section:last-child
+
+.area-carte
+{
+  padding: 3vw 4vw 1vw;
+}
+/* ____________ Sezione Icone ____________ */
+.sezione-icone
 {
   background-color: #222222;
 }
+
+
 main img
 {
   width: calc(100% / 7 - 0.4vw);
@@ -51,10 +60,25 @@ main img
   /* test/ */
 }
 
-/* |||||||||| FOOTER |||||||||| */
+.btn
+{
+  background-color: #4a4a4a;
+  padding: 0.2vw 0.4vw;
+  border-radius: 5px;
+  font-size: 0.8rem;
+}
+
+.bottoni-top
+{
+  margin: 0.2vw 0.2vw 0 0;
+}
 
 
 
+.bottoni-top > a
+{
+  margin: 0.1vw 0 0 0.4vw;
+}
 /* |||||||||| AREA TEST |||||||||| */
 
 
