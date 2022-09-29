@@ -16,22 +16,40 @@ img
 }
 a
 {
-  color: black;
+  color: white;
 }
 /* |||||||||| INIZIO |||||||||| */
-
-
-/* |||||||||| HEADER |||||||||| */
-
-
-
-/* |||||||||| NAV |||||||||| */
-
+body
+{
+  color: white;
+}
 
 
 /* |||||||||| MAIN |||||||||| */
-
-
+main
+{
+  height: 100vh;
+  background-color: #0e0e0e;
+}
+main section:first-child
+{
+  background-color: black;
+  padding: 3vw 4vw 1vw;
+  
+}
+main section:last-child
+{
+  background-color: #222222;
+}
+main img
+{
+  width: calc(100% / 7 - 0.4vw);
+  margin: 0.2vw;
+  aspect-ratio: 5/3;
+  /* test/ */
+  border: 1px solid white;
+  /* test/ */
+}
 
 /* |||||||||| FOOTER |||||||||| */
 

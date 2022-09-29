@@ -1,9 +1,62 @@
 /* |||||||||| AREA SET |||||||||| */
+
+/* (_____ Contenitore ____________________________) */
+.contenitore97
+{
+  width: 97%;
+  margin: auto;
+}
+.contenitore90
+{
+  width: 90%;
+  margin: auto;
+}
+.contenitore80
+{
+  width: 80%;
+  margin: auto;
+}
+.contenitore80
+{
+  width: 80%;
+  margin: auto;
+}
+.contenitore70
+{
+  width: 70%;
+  margin: auto;
+}
+.contenitore60
+{
+  width: 60%;
+  margin: auto;
+}
+.contenitore50
+{
+  width: 50%;
+  margin: auto;
+}
+.contenitore40
+{
+  width: 40%;
+  margin: auto;
+}
+
+/* (_____ Contenitore ____________________________) */
+.left-text
+{
+  text-align: left;
+}
 .center-text
 {
   text-align: center;
 }
-/* Padding */
+.right-text
+{
+  text-align: right;
+}
+
+/* (_____ Padding ____________________________) */
 .pad-xs
 {
   padding: 0.5vw;
@@ -20,7 +73,8 @@
 {
   padding: 3vw;
 }
-/* Padding laterale */
+
+/* (_____ Padding laterale ____________________________) */
 .x-pad-xs
 {
   padding: 0 0.5vw;
@@ -37,7 +91,8 @@
 {
   padding: 0 3vw;
 }
-/* Padding verticale */
+
+/* (_____ Padding verticale ____________________________) */
 .y-pad-xs
 {
   padding: 0.5vw 0;
@@ -54,7 +109,8 @@
 {
   padding: 3vw 0;
 }
-/* margin laterale */
+
+/* (_____ Margin laterale ____________________________) */
 .x-mar-xxs
 {
   margin: 0 0.3vw;
@@ -75,6 +131,8 @@
 {
   margin: 0 3vw;
 }
+
+/* (_____ Margin verticale ____________________________) */
 .y-mar-s
 {
   margin: 1vw 0;
@@ -87,7 +145,8 @@
 {
   margin: 3vw 0;
 }
-/* Border Radius */
+
+/* (_____ Border Radius ____________________________) */
 .borag-s
 {
   border-radius: 5px;
@@ -120,6 +179,8 @@
 {
   border: 3px solid black;
 }
+
+/* (_____ Font Size ____________________________) */
 .font-xs
 {
   font-size: 0.8rem;
@@ -140,7 +201,21 @@
 {
   font-size: 2rem;
 }
-/* |||||||||| AREA SET |||||||||| */
+
+/* |||||||||| AREA COLORI |||||||||| */
+
+.sfondo-grigio
+{
+  background-color: lightgrey;
+}
+.sfondo-bianco
+{
+  background-color: white;
+}
+.nero
+{
+  color: black;
+}
 
 
 
@@ -177,6 +252,4 @@
 
 
 
-
-
-/* Fine */
+/* Fine :)*/
